@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="base.css">
+      </head>
+      <body>  
+        <form id="form-to-check">
+          <p><!--A REVOIR POURQUOI AVEC LE ^ DANS LE PATTERN CODE CELA NE FONCTIONNE PAS-->
+            <label>Code : <input type="text" name="code" id="code" 
+            
+                pattern = "/CODE-/" /></label><br />
+            <div class="result" id="code-validation"></div>
+          </p>
+          <p>
+            <label>Email : <input type="text" name="email" id="email" /></label>
+          </p>
+          <p>
+             <input type="submit" value="Vérifier" id="submit-btn" disabled="" />
+          </p>
+          <p  id="erreur"></p>
+        </form>
+
+        
+        
+        <script type="text/javascript" src="index.js"></script>
+      </body>
+    </html>
+    
+    

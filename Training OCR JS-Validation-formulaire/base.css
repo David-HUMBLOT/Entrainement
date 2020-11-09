@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+form {
+    margin: auto;
+    max-width: 300px;
+    margin-top: 40px;
+  }
+  
+  .result {
+    text-align: center;
+  }
+
+  #erreur{
+    color:red;
+
+  }
