@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Comfortaa', cursive, sans-serif;
+
+}
+section1{
+    position: relative;
+    max-width: auto;
+    height:90vh;
+    background-image: url(img/foret-montagne-carpates-ukrainiennes-haut-vue-aerienne_231208-6627.webp);
+    background-repeat: no-repeat;
+    background-size:100% 100% ; 
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section1:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: rgb(255,255,255);
+  
+    clip-path: polygon(100% 0,0 100%,100% 100%);
+     font-family: 'Pacifico',cursive;
+}
+.content{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+
+}
+.content h2{
+    margin: 0;
+    padding: 0;
+    color:#98FA92;
+    font-size: 5em;
+    font-family: 'Pacifico',cursive;
+    -webkit-transition: all 1.3s 0s ease;
+-moz-transition: all 1.3s 0s ease;
+-o-transition: all 1.3s 0s ease;
+transition: all 1.3s 0s ease;
+
+}
+.content p{
+    color:#fff;
+    font-size: 2,5 em;
+    font-family: 'Lobster', cursive;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
+}
+.cadre{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: rgb(255,255,255);
+
+    width: auto;
+    height: 40vh;
+}
+
+.fondheader{
+    background-color: rgb(11, 32, 12);
+}
+.txt1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(88, 88, 54);
+    border-color: rgb(131, 201, 131) 5px solid;
+    border-radius: 30px;
+    padding-top: 3em;
+    padding: 3%;
+    margin-right: 5%;
+    width: 50%;
+    height: 50%;
+    font-size: larger;
+    color: rgb(201, 201, 201);
+    font-family: 'Lobster', cursive;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
+    
+}
+.Section3{
+    width: 100%;
+    height: 100vh;
+  
+    
+    /*background:rgba(159, 193, 49, 0.6);*/
+   /*background-color: rgba(102, 250, 65, 0.5);*/
+    background-color:  #e8e8ec;
+  
+
+border-top: rgb(192, 235, 157) 1px solid;
+color: rgb(19, 12, 78);
+font-size: larger;
+-webkit-transition: all 1.3s 0s ease;
+-moz-transition: all 1.3s 0s ease;
+-o-transition: all 1.3s 0s ease;
+transition: all 1.3s 0s ease;
+}
+
+/**theme black**/
+
+section2{
+    position: relative;
+    max-width: auto;
+    height:90vh;
+    background-image: url(img/foret-montagne-carpates-ukrainiennes-haut-vue-aerienne_231208-6627.webp);
+    background-repeat: no-repeat;
+    background-size:100% 100% ; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
+}
+
+section2:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: rgb(1, 12, 1);
+    background: linear-gradient(180deg, rgb(2, 20, 1) 11%, rgb(3, 20, 4) 46%, rgb(3, 22, 22) 68%, rgb(14, 1, 1) 97%);
+    clip-path: polygon(100% 0,0 100%,100% 100%);
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
+
+    
+}
+.content2{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+
+    
+
+}
+.content2 h2{
+    margin: 0;
+    padding: 0;
+    color:rgb(253, 255, 253);
+    font-size: 5em;
+
+    
+}
+.content2 p{
+    color:#fff;
+    font-size: 2,5 em;
+}
+.cadre2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+    background: rgb(12, 1, 1);
+background: linear-gradient(180deg, rgb(0, 0, 0) 4%, rgb(0, 7, 0) 51%, rgba(71,255,80,1) 81%, rgba(91,240,88,1) 100%);
+    width: auto;
+    height: 40vh;
+}
+.txt2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 109, 0);
+    box-shadow: 10px 5px 5px rgb(76, 121, 78);
+    border-radius: 30px;
+    padding: 3%;
+    width: 50%;
+    height: 50%;
+    color: rgb(3, 0, 0);
+    font-size: large;
+}
+.Section4{
+    width: 100%;
+    height: 100vh;
+    background: rgb(34, 121, 28);
+background: linear-gradient(180deg, rgb(2, 20, 1) 6%, rgb(3, 43, 11) 18%, rgb(19, 94, 22) 34%, rgb(24, 104, 32) 69%, rgb(19, 117, 16) 85%, rgb(1, 3, 0)93%);
+border-top: rgba(6, 12, 0, 0.568) 1px solid;
+font-size: larger;
+
+color: rgb(253, 253, 253);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
